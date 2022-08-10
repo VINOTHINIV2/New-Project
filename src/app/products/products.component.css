@@ -1,0 +1,51 @@
+.products1-card {
+  background-color:rgb(35, 221, 196);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size :25px;
+}
+.products2-card {
+  background-color:rgb(35, 221, 196);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size :25px;
+}
+.products3-card {
+  background-color:rgb(35, 221, 196);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size :25px;
+}
+.products4-card {
+  background-color: rgb(35, 221, 196);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-size :25px;
+}
+
+.ui {
+  background-color: white;
+  text-align: center;
+}
+.likebt {
+  border: none;
+  cursor: pointer;
+}
+.sharebt {
+  border: none;
+  cursor: pointer;
+}
+.uii {
+  display: flex;
+  gap: 50px;
+}
+h2{
+  font-size :30px;
+}
+p{
+  font-size :20px;
+}

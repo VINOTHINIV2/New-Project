@@ -1,0 +1,31 @@
+<head>
+  <title>E-Shop</title>
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="header">
+    <mat-toolbar class="bar">
+    <button mat-icon-button class="menu-icon">
+     <mat-icon>menu</mat-icon>
+     </button>
+      <button class="product-link"(click)="onButtonClicked()">Shop Here</button>
+      <span class="sample"></span>
+      <button mat-icon-button class="favorite-icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="share-icon">
+        <mat-icon>home</mat-icon>
+      </button>
+     </mat-toolbar>
+     <button mat-icon-button class="search-icon">
+    <mat-icon>search</mat-icon>
+   </button>
+  </nav>
+  <h2 class="headline">Welcome to our shop </h2>
+  <p>Spend less ! Smile more ! Have better experience ! </p>
+
+  <router-outlet></router-outlet>
+</body>
